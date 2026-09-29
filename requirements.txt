@@ -1,0 +1,16 @@
+# Requisitos para ejecutar EVA_1_Andres_Zzuniga_Saavedra.ipynb
+# Python recomendado: 3.12 (el notebook se desarrolló con 3.12.10)
+# Instalar con: pip install -r requirements.txt
+
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.2   # OneHotEncoder(sparse_output=...) requiere 1.2 o superior
+
+# Usadas por el notebook actual (se pueden quitar si se reemplazan
+# por matplotlib y numpy, que son las librerías que pide el enunciado):
+seaborn>=0.12
+scipy>=1.10
+
+# Necesario para ejecutar notebooks en VS Code / Jupyter
+ipykernel
