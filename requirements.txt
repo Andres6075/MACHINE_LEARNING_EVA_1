@@ -14,3 +14,5 @@ scipy>=1.10
 
 # Necesario para ejecutar notebooks en VS Code / Jupyter
 ipykernel
+
+
